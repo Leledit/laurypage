@@ -1,0 +1,87 @@
+.header{
+    background: url("../../assets/headerMobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 926px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    .headerContainer{
+        width: 90%;
+        margin-left: 5%;
+        .headerInfos{
+            .headerTitulo{
+                color: rgba(255,255,255,1);
+                font-size: 18px;
+                text-align: center;
+                font-weight: 400;
+                font-size: 24px;
+               // font-size: 20px;
+            }
+            .headerSubTitle{
+                color: rgba(255,255,255,1);
+                font-size: 18px;
+                text-align: center;
+                margin-bottom: 20px;
+                font-weight: 400;
+            }
+        }
+        .headerForm{
+            width: 90%;
+            margin-left: 5%;
+            margin-bottom: 40px;
+            .headerFormInput{
+                background: rgba(255, 255, 255, 0.8);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                border-radius: 15px;
+                width: 90%;
+                padding-left: 20px;
+                height: 30px;
+                line-height: 30px;
+                margin-bottom: 15px;
+                color:rgba(100, 100, 100, 0.8);
+                &:focus{
+                    border: none !important;
+                }
+            }
+            .headerFormInputSubmit{
+                border-radius: 15px;
+                height: 40px;
+                line-height: 30px;
+                width: 97%;
+                padding-left: 20px;
+                color: rgba(255,255,255,1);
+                background: linear-gradient(184.37deg, #E2CC00 64.87%, #FFFFFF 96.45%);
+                border: 1px solid rgba(0, 0, 0, 0.4);
+                font-weight: 700;
+                font-size: 20px;
+            }
+        }
+        
+    }
+}
+
+@media screen and (min-width:350px) {
+    .header{
+        .headerContainer{
+            .headerInfos{
+                .headerSubTitle{
+                    font-size: 20px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:400px) {
+    .header{
+        .headerContainer{
+            .headerInfos{
+                .headerSubTitle{
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+}
