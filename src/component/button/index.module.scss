@@ -1,0 +1,20 @@
+.button{
+    width: 90%;
+    margin-left: 5%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(184.37deg, #E2CC00 64.87%, #FFFFFF 96.45%);
+    border: 1px solid #E2CC00;
+    border-radius: 15px;
+    display: block;
+    color: #FFFFFF;
+}
+@media screen and (min-width:429px) {
+    .button{
+        width: 410px;
+        margin-left: calc(50% - 205px);
+    }
+}
