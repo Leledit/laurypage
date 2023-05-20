@@ -1,0 +1,94 @@
+.containerInvest{
+    background: url("../../assets/investimentoNecessarioMob.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .investInfos{
+        width: 90%;
+        border-radius: 20px;
+        background: rgba(255,255,255,1);
+        font-style: italic;
+        text-align: center;
+        padding-bottom: 42px;
+        .investTitle{
+            font-weight: 400;
+            font-size: 20px;
+            color:rgba(226, 204, 0, 1);
+            padding-top: 22px;
+            margin-bottom: 27px;
+        }
+        .investDescript{
+            font-weight: 400;
+            font-size: 16px;
+            color: rgba(0,0,0,1);
+            margin-bottom: 20px;
+        }
+        .investValorOriginal{
+            color: rgba(226, 204, 0, 1);
+            font-size: 18px;
+            text-decoration: line-through;
+            margin-bottom: 14px;
+        }
+        .investValorDesconto{
+            font-size: 30px;
+            color:rgba(226, 204, 0, 1);
+            line-height: 31px;
+            margin-bottom: 20px;
+        }
+        .investValorPayment{
+            font-size: 16px;
+            line-height: 20px;
+            margin-bottom: 28px;
+        }
+    }
+}
+@media screen and (min-width:428px) {
+    .containerInvest{
+        background: url("../../assets/investimentoNecessarioTab.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        .investInfos{
+            width: 380px;
+        }
+    }
+}
+
+@media screen and (min-width:620px) {
+    .containerInvest{
+        .investInfos{
+            width: 600px;
+            .investTitle{
+                font-size: 26px;
+                
+            }
+            .investDescript{
+                font-size: 18px;
+            }
+            .investValorOriginal{
+                font-size: 18px;
+            }
+            .investValorDesconto{
+                font-size: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:992px) {
+    .containerInvest{
+        background: url("../../assets/investimentoNecessarioDesk.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .containerInvest{
+        background: url("../../assets/investimentoNecessarioDeskFull.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}

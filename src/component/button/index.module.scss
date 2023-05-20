@@ -1,4 +1,4 @@
-.button{
+.button,.smalButon{
     width: 90%;
     margin-left: 5%;
     height: 50px;
@@ -12,8 +12,23 @@
     display: block;
     color: #FFFFFF;
 }
+.smalButon{
+    width: 80%;
+    margin-left: 10%;
+}
 @media screen and (min-width:429px) {
-    .button{
+    .button,.smalButon{
+        width: 410px;
+        margin-left: calc(50% - 205px);
+    }
+    .smalButon{
+        width: 230px;
+        margin-left: calc(50% - 115px);
+    }
+}
+
+@media screen and (min-width:620px) {
+    .smalButon{
         width: 410px;
         margin-left: calc(50% - 205px);
     }
