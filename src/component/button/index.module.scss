@@ -12,6 +12,9 @@
     display: block;
     text-decoration: none;
     color: #FFFFFF;
+    &:hover{
+        color: rgba(255,255,255,0.7);
+    }
 }
 .smalButon{
     width: 80%;
