@@ -5,6 +5,7 @@ import { Header } from "../component/header";
 import { NecessaryInvestment } from "../component/necessaryInvestment";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Testimony } from "../component/testimony";
+import { Footer } from "../component/footer";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <NecessaryInvestment/>
       <CommonQuestions/>
       <Testimony/>
+      <Footer/>
     </>
   );
 }
