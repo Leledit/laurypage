@@ -1,5 +1,5 @@
 .container{
-    background: url("../../assets/containerMob.png");
+    background: url("../../assets/containerMob.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -103,7 +103,7 @@
 
 @media screen and (min-width:428px) {
     .container{
-        background: url("../../assets/containerTab.png");
+        background: url("../../assets/containerTab.webp");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -123,7 +123,7 @@
 }
 @media screen and (min-width:992px) {
     .container{
-        background: url("../../assets/containerDesk.png");
+        background: url("../../assets/containerDesk.webp");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -190,7 +190,7 @@
 }
 @media screen and (min-width:1400px) {
     .container{
-        background: url("../../assets/containerDesk.png");
+        background: url("../../assets/containerDesk.webp");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }

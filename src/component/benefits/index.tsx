@@ -1,10 +1,10 @@
 import styles from './index.module.scss';
 import { BenefitsItem } from './item';
-import imgBenefitEmagrecimento from '../../assets/benefits/emagrecimentoDefinitivo.png';
-import imgBenefirGanhoMassa from  '../../assets/benefits/ganhoDeMassa.png';
-import imgBenefirAlimentacaoPesonalizada from  '../../assets/benefits/alimentacaoPersonalizada.png';
-import imgBenefirMelhorQualidadeDeVida from  '../../assets/benefits/melhorQualidadeDeVida.png';
-import imgBenefirAcopanhamentoProcesso from  '../../assets/benefits/acopanhamentoProcesso.png';
+import imgBenefitEmagrecimento from '../../assets/benefits/emagrecimentoDefinitivo.webp';
+import imgBenefirGanhoMassa from  '../../assets/benefits/ganhoDeMassa.webp';
+import imgBenefirAlimentacaoPesonalizada from  '../../assets/benefits/alimentacaoPersonalizada.webp';
+import imgBenefirMelhorQualidadeDeVida from  '../../assets/benefits/melhorQualidadeDeVida.webp';
+import imgBenefirAcopanhamentoProcesso from  '../../assets/benefits/acopanhamentoProcesso.webp';
 import { Button } from '../button';
 export function Benefits(){
     return(

@@ -1,5 +1,5 @@
 .containerInvest{
-    background: url("../../assets/investimentoNecessarioMob.png");
+    background: url("../../assets/investimentoNecessarioMob.webp");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 1150px;
@@ -25,6 +25,8 @@
             font-size: 16px;
             color: rgba(0,0,0,1);
             margin-bottom: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
         }
         .investValorOriginal{
             color: rgba(226, 204, 0, 1);
@@ -47,7 +49,7 @@
 }
 @media screen and (min-width:428px) {
     .containerInvest{
-        background: url("../../assets/investimentoNecessarioTab.png");
+        background: url("../../assets/investimentoNecessarioTab.webp");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         .investInfos{
@@ -79,7 +81,7 @@
 
 @media screen and (min-width:992px) {
     .containerInvest{
-        background: url("../../assets/investimentoNecessarioDesk.png");
+        background: url("../../assets/investimentoNecessarioDesk.webp");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }
@@ -87,7 +89,7 @@
 
 @media screen and (min-width:1400px) {
     .containerInvest{
-        background: url("../../assets/investimentoNecessarioDeskFull.png");
+        background: url("../../assets/investimentoNecessarioDeskfull.webp");
         background-size: 100% 100%;
         background-repeat: no-repeat;
     }

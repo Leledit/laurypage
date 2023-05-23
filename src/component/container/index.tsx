@@ -1,8 +1,8 @@
 import styles from './index.module.scss';
-import aboutDocMob from '../../assets/aboutDoctMob.png';
-import aboutDocTab from '../../assets/aboutDoctTab.png';
-import aboutDocDesk from '../../assets/aboutDoctDesk.png';
-import aboutDocDeskFull from '../../assets/aboutDoctDeskFull.png';
+import aboutDocMob from '../../assets/aboutDoctMob.webp';
+import aboutDocTab from '../../assets/aboutdocttab.webp';
+import aboutDocDesk from '../../assets/aboutDoctDesk.webp';
+import aboutDocDeskFull from '../../assets/aboutDoctDeskFull.webp';
 import { Operationitem } from './operationIten';
 import { Button } from '../button';
 

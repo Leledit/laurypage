@@ -1,7 +1,10 @@
+import { idFormContext } from '../../context/context';
 import styles from './index.module.scss';
+import { useContext} from 'react';
 export function Header(){
+    const idForm = useContext(idFormContext);   
     return(
-        <header className={styles.header}>
+        <header className={styles.header} id={idForm}>
             <div className={styles.headerContainer}>
                 <div className={styles.headerInfos}>
                     <h1 className={styles.headerTitulo}>Tenha o seu corpo dos sonhos</h1>

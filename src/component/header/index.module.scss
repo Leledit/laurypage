@@ -1,6 +1,9 @@
 
+.formId{
+width: 100%;
+}
 .header{
-    background: url("../../assets/headerMobile.png");
+    background: url("../../assets/headerMobile.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 926px;
@@ -34,7 +37,7 @@
                 background: rgba(255, 255, 255, 0.8);
                 border: 1px solid rgba(255, 255, 255, 0.3);
                 border-radius: 15px;
-                width: 90%;
+                width: 100%;
                 padding-left: 20px;
                 height: 30px;
                 line-height: 30px;
@@ -48,7 +51,7 @@
                 border-radius: 15px;
                 height: 40px;
                 line-height: 30px;
-                width: 97%;
+                width: 100%;
                 padding-left: 20px;
                 color: rgba(255,255,255,1);
                 background: linear-gradient(184.37deg, #E2CC00 64.87%, #FFFFFF 96.45%);
@@ -112,7 +115,7 @@
 }
 @media screen and (min-width:700px) {
     .header{
-        background: url("../../assets/headerTablet.png");
+        background: url("../../assets/headerTablet.webp");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         height: 1200px;
@@ -143,7 +146,7 @@
 }
 @media screen and (min-width:1100px) {
     .header{
-        background: url("../../assets/headerDesktop.png");
+        background: url("../../assets/headerDesktop.webp");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         height: 926px;
@@ -183,7 +186,7 @@
 }
 @media screen and (min-width:1600px) {
     .header{
-        background: url("../../assets/headerDesktopFull.png");
+        background: url("../../assets/headerDesktopFull.webp");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         .headerContainer{

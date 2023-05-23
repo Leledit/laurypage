@@ -1,8 +1,8 @@
 import { Button } from '../button';
 import styles from './index.module.scss';
 import {Carousel} from 'react-bootstrap';
-import prevIcon from '../../assets/prevIcon.png';
-import nextIcon from '../../assets/nestIcon.png';
+import prevIcon from '../../assets/prevIcon.webp';
+import nextIcon from '../../assets/nestIcon.webp';
 export function Testimony(){
     return(
         <section className={styles.testimony}>

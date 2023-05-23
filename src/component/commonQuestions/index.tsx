@@ -1,6 +1,6 @@
 import {Accordion} from 'react-bootstrap';
 import style from './index.module.scss';
-import imgArrow from '../../assets/arrow.png'
+import imgArrow from '../../assets/arrow.webp'
 export function CommonQuestions(){
     return(
         <section className={style.commonQuestions}>

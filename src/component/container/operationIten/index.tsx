@@ -1,8 +1,8 @@
 import styles from './index.module.scss';
-import numberOne from '../../../assets/numbers/aboutNumberOne.png';
-import numberTwo from '../../../assets/numbers/aboutNumberTwo.png';
-import numberThree from '../../../assets/numbers/aboutNumberThree.png';
-import numberFour from '../../../assets/numbers/aboutNumberFour.png';
+import numberOne from '../../../assets/numbers/aboutNumberOne.webp';
+import numberTwo from '../../../assets/numbers/aboutNumberTwo.webp';
+import numberThree from '../../../assets/numbers/aboutNumberThree.webp';
+import numberFour from '../../../assets/numbers/aboutNumberFour.webp';
 
 interface props{
     title: string,
