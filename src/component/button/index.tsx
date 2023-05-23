@@ -13,11 +13,11 @@ export function Button({text,type='default'}:props){
     }else{  
         classStyle = styles.smalButon;
     }
-  
+
     const idForm = useContext(idFormContext);   
-   console.log(idForm);
-    const refForm = document.querySelector("#header_formId__Nc7pp" );
-    console.log(refForm);
+   
+    const refForm = document.querySelector("#" +idForm);
+
     return(
         <>
             <a href="" className={classStyle} onClick={(e)=>{e.preventDefault();formClickEvent()}}>{text}</a>

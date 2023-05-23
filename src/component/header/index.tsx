@@ -2,7 +2,7 @@ import { idFormContext } from '../../context/context';
 import styles from './index.module.scss';
 import { useContext} from 'react';
 export function Header(){
-    const idForm = useContext(idFormContext);   
+    const idForm = useContext(idFormContext); 
     return(
         <header className={styles.header} id={idForm}>
             <div className={styles.headerContainer}>
