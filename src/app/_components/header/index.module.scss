@@ -1,0 +1,208 @@
+.header {
+  font-family: "Poppins", sans-serif;
+  background: url("../../../../public/images/header/mobile.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1000px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  .headerContainer {
+    width: 90%;
+    margin-left: 5%;
+    .headerInfos {
+      .headerTitle {
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 20px;
+      }
+      .headerSubTitle {
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+      }
+    }
+    .headerForm {
+      width: 90%;
+      margin-left: 5%;
+      margin-bottom: 20px;
+      .headerFormInput {
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 15px;
+        width: calc(100% - 15px);
+        padding-left: 10px;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 15px;
+        color: rgba(100, 100, 100, 0.8);
+        &:focus {
+          border: none !important;
+        }
+      }
+
+      .headerFormInputSubmit {
+        border-radius: 15px;
+        height: 45px;
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        background: linear-gradient(184.37deg, #e2cc00 64.87%, #ffffff 96.45%);
+        border: 1px solid rgba(0, 0, 0, 0.4);
+        font-weight: 700;
+        font-size: 18px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media screen and (max-width: 300px) {
+  .header {
+    .headerContainer {
+      .headerInfos {
+        .headerTitle {
+          font-size: 19px;
+        }
+        .headerSubTitle {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 350px) {
+  .header {
+    .headerContainer {
+      .headerInfos {
+        .headerSubTitle {
+          font-size: 20px;
+          margin-bottom: 30px;
+        }
+      }
+      .headerForm {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 400px) {
+  .header {
+    .headerContainer {
+      .headerInfos {
+        .headerSubTitle {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 428px) {
+  .header {
+    .headerContainer {
+      .headerForm {
+        width: 400px;
+        margin-left: calc(50% - 200px);
+      }
+    }
+  }
+}
+@media screen and (min-width: 700px) {
+  .header {
+    background: url("../../../../public/images/header/tablet.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1300px;
+    .headerContainer {
+      width: 500px;
+      margin-left: calc(50% - 250px);
+      .headerInfos {
+        .headerTitle {
+          font-size: 35px;
+          line-height: 40px;
+        }
+        .headerSubTitle {
+          font-size: 24px;
+          margin-bottom: 30px;
+          line-height: 33px;
+        }
+      }
+      .headerForm {
+        .headerFormInput {
+          height: 46px;
+          line-height: 46px;
+          font-size: 18px;
+        }
+        .headerFormInputSubmit {
+          height: 46px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1100px) {
+  .header {
+    background: url("../../../../public/images/header/desktop.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 926px;
+    justify-content: center;
+    .headerContainer {
+      width: 400px;
+      margin-left: 80px;
+      .headerInfos {
+        .headerTitle {
+          font-size: 48px;
+          text-align: left;
+          max-width: 380px;
+          line-height: 48px;
+        }
+        .headerSubTitle {
+          text-align: left;
+          margin-bottom: 30px;
+        }
+      }
+      .headerForm {
+        .headerFormInput {
+          height: 50px;
+          line-height: 50px;
+        }
+        .headerFormInputSubmit {
+          height: 50px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header {
+    .headerContainer {
+      margin-left: 100px;
+    }
+  }
+}
+@media screen and (min-width: 1600px) {
+  .header {
+    background: url("../../../../public/images/header/desktopFull.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    .headerContainer {
+      margin-left: 200px;
+    }
+  }
+}
+@media screen and (min-width: 1800px) {
+  .header {
+    .headerContainer {
+      margin-left: 350px;
+    }
+  }
+}

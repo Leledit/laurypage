@@ -1,0 +1,41 @@
+.button,
+.smalButon {
+  width: 90%;
+  margin-left: 5%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(184.37deg, #e2cc00 64.87%, #ffffff 96.45%);
+  border: 1px solid #e2cc00;
+  border-radius: 15px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  &:hover {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+.smalButon {
+  width: 80%;
+  margin-left: 10%;
+}
+@media screen and (min-width: 429px) {
+  .button,
+  .smalButon {
+    width: 410px;
+    margin-left: calc(50% - 205px);
+  }
+  .smalButon {
+    width: 230px;
+    margin-left: calc(50% - 115px);
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .smalButon {
+    width: 410px;
+    margin-left: calc(50% - 205px);
+  }
+}

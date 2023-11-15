@@ -1,0 +1,22 @@
+.footer {
+  height: 180px;
+  background: linear-gradient(
+    180deg,
+    rgba(182, 182, 182, 0) 0%,
+    rgba(182, 182, 182, 0.2) 60.94%
+  );
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  .footerText {
+    text-align: center;
+    line-height: 36px;
+    font-size: 24px;
+    color: rgba(226, 204, 0, 1);
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

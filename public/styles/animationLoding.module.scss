@@ -1,0 +1,31 @@
+.containerLoading{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #dfdfdf;
+}
+
+.loaderContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+.loader{
+    animation: is-rotating 1s infinite;
+    border: 6px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color:#F05A26;
+    height: 150px;
+    width: 150px;
+}
+
+@keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+}

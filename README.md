@@ -29,3 +29,8 @@ para iniciar o projeto, devemos seguir alguns passos abaixo:
 * react-bootstrap ^2.7.4 (biblioteca)
 * sass ^1.62.1
 * typescript ^4.9.5
+
+
+#lembretes
+
+* concertar botoes da pagina (link)

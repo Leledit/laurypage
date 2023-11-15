@@ -1,0 +1,184 @@
+.testimony {
+  background: url("../../../../public/images/testimony/mobile.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  .testimonyTitle {
+    padding-top: 60px;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(226, 204, 0, 1);
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .testimonyContainer {
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 4px 50px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+    height: auto;
+    .testimonySubTitle {
+      color: rgba(0, 0, 0, 1);
+      font-size: 19px;
+      line-height: 29px;
+      padding-top: 39px;
+      width: 90%;
+      margin-left: 5%;
+      margin-bottom: 30px;
+      strong {
+        color: rgba(170, 153, 0, 1);
+      }
+    }
+    .carousel {
+      background: #ededed;
+      box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+      border-radius: 30px;
+      width: 90%;
+      margin-left: 5%;
+      margin-bottom: 50px;
+
+      .carroselTestimony {
+        padding: 20px 50px;
+        font-size: 12px;
+        line-height: 24px;
+        color: #000000;
+      }
+      .carroselTestimonyPeople {
+        text-align: center;
+        font-size: 24px;
+        line-height: 36px;
+        color: #e2cc00;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 340px) {
+  .testimony {
+    height: 1200px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .testimony {
+    .testimonyContainer {
+      .carousel {
+        height: 550px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 429px) {
+  .testimony {
+    .testimonyTitle {
+      font-size: 36px;
+    }
+    .testimonyContainer {
+      .testimonySubTitle {
+        font-size: 24px;
+        margin-bottom: 40px;
+        line-height: 40px;
+      }
+      .carousel {
+        width: 390px;
+        margin-left: calc(50% - 195px);
+        height: 550px;
+        .carroselTestimony {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 520px) {
+  .testimony {
+    .testimonyContainer {
+      width: 500px;
+      margin-left: calc(50% - 250px);
+    }
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .testimony {
+    background: url("../../../../public/images/testimony/tablet.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+    .testimonyTitle {
+      padding-top: 120px;
+    }
+    .testimonyContainer {
+      width: 600px;
+      margin-left: calc(50% - 300px);
+      .carousel {
+        width: 90%;
+        margin-left: 5%;
+        height: 400px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .testimony {
+    background: url("../../../../public/images/testimony/desktop.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .testimonyTitle {
+      padding-top: 0px;
+    }
+    .testimonyContainer {
+      margin-left: 0px;
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .testimony {
+    height: 1200px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .testimony {
+    background: url("../../../../public/images/testimony/desktopFull.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1350px;
+    width: 1300px;
+    margin-left: calc(50% - 650px);
+    margin-top: 120px;
+    .testimonyContainer {
+      width: 1100px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .testimonySubTitle {
+        width: 420px;
+        font-size: 30px;
+        margin-left: 0px;
+        margin-right: 70px;
+      }
+      .carousel {
+        width: 500px;
+        margin-left: 0px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        height: 550px;
+        .carroselTestimony {
+          padding: 10px 80px;
+          margin-top: 50px;
+        }
+      }
+    }
+  }
+}

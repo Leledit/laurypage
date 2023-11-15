@@ -1,0 +1,74 @@
+.commonQuestions {
+  margin-top: 30px;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 60px;
+  font-family: "Poppins", sans-serif;
+  .commonQuestionsTitle {
+    text-align: center;
+    color: rgba(226, 204, 0, 1);
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+  }
+  .commonQuestionsItens {
+    .accordionItem {
+      border: none;
+    }
+    .accordionHeader {
+      &:hover {
+        background-color: rgba(226, 204, 0, 0.1);
+        border-radius: 10px;
+      }
+      img {
+        width: 40px;
+        height: 28px;
+        margin-right: 22px;
+        padding-left: 15px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 10px;
+        margin-right: 10px;
+      }
+    }
+    .accordionBody {
+      text-align: center !important;
+      background-color: rgba(226, 204, 0, 0.1);
+      border-radius: 20px;
+      padding: 20px;
+    }
+  }
+  .commonDivider {
+    margin-top: 20px;
+    border: 1px solid rgba(226, 204, 0, 1);
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .commonQuestions {
+    width: 900px;
+    margin-left: calc(50% - 450px);
+    padding-top: 50px;
+    .commonQuestionsTitle {
+      font-size: 35px;
+      margin-bottom: 50px;
+    }
+    .commonQuestionsItens {
+      .accordionHeader {
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 1400px) {
+  .commonQuestions {
+    .commonQuestionsTitle {
+      font-size: 48px;
+    }
+  }
+}
