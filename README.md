@@ -23,14 +23,8 @@ para iniciar o projeto, devemos seguir alguns passos abaixo:
 
 # Tecnicas e tecnologias usadas # 
 
-* react ^18.2.0
+* next "14.0.2"
 * bootstrap ^5.2.3 (biblioteca)
-* classnames ^2.3.2(biblioteca)
 * react-bootstrap ^2.7.4 (biblioteca)
-* sass ^1.62.1
-* typescript ^4.9.5
-
-
-#lembretes
-
-* concertar botoes da pagina (link)
+* sass ^1.69.5
+* typescript ^5
